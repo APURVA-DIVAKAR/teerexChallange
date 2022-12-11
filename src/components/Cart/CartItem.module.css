@@ -1,0 +1,33 @@
+
+
+.row{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    gap:1rem;
+    padding:10px;
+}
+.image{
+    width: 150px;
+    height: 100px;
+}
+.del{
+    padding: 1%;
+    font-weight: bold;
+    border: none;
+    border-radius: 10%;
+}
+.del:hover{
+    color: beige;
+    background-color: red;
+}
+
+@media screen and (max-width: 700px) {
+   
+   .image
+    {
+    width: 50px;
+    height: 50px;
+}
+  }
+  

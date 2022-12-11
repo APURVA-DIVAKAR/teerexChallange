@@ -6,7 +6,7 @@ const Container = (props) => {
     return (
         <>
             <NavBar style={{postion:"fixed"}} />
-            <main style={{marginTop:"7%"}}>{props.children}</main>
+            <main style={{padding:"7% 0 7% 0"}}>{props.children}</main>
             <Footer/>
         </>
     );

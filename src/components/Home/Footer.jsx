@@ -1,15 +1,20 @@
 
 
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+import styles from './Footer.module.css'
 
 const Footer = () => {
+  let navigate = useNavigate()
   return (
     <div>
+         
+         <footer className={styles.footerpin}>
          <Link to='/' className='Logo' > 
-           <h1> TeeRex Store</h1>
-           <h3>A solution for Clothing</h3>
+           <h2  className='Logo'> TeeRex Store </h2>          
          </Link>
+        </footer>
+        
     </div>
   )
 }

@@ -16,6 +16,8 @@
 
 
 
+
+
 .prodImg {
     border-radius: 50%;
     width: 50px;
@@ -87,6 +89,7 @@
     }
 
     .searchMobile {
+        margin-top: 7%;
         display: block !important;
     }
 

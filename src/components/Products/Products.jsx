@@ -17,8 +17,8 @@ const Products = (props) => {
     };
 
     return (
-        <Container fluid>
-            <div className="searchMobile text-center mb-3">
+        <Container fluid className='main'>
+            <div className="searchMobile text-center mb-3" >
                 <Row>
                     <Col xs={10}>
                         <SearchBar />

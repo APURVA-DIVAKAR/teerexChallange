@@ -80,6 +80,9 @@
 }
 
 @media (max-width: 771px) {
+    .main{
+        margin-top: 30%;
+    }
     .search {
         display: none !important;
     }
@@ -89,8 +92,9 @@
     }
 
     .searchMobile {
-        margin-top: 7%;
+        
         display: block !important;
+        
     }
 
     .searchInput {
